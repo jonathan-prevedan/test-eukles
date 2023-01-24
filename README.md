@@ -5,6 +5,9 @@ Après le clonage du repo
 Run ```composer install```
 
 
+Renommé le fichier ```.env.example``` -> ``` .env```
+
+
 Run ``` ./vendor/bin/sail up``` Celà crée et lance les conteneurs docker en passant par Sail (laravel service)
 
 Via Docker au sein du conteneur <b>laravel-1</b> lancer la commande : ``` php artisan migrate```
